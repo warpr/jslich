@@ -79,7 +79,8 @@ var main = function (address, wait) {
             wait (page, function () {
                 console.log (JSON.stringify ({
                     "jslicense": [ jslicense ],
-                    "scripts": Object.keys (scripts)
+                    "scripts": Object.keys (scripts),
+                    "page": [ address ]
                 }, undefined, 4));
 
                 phantom.exit();
