@@ -1,0 +1,16 @@
+{
+  "author": "Kuno Woudt <kuno@frob.nl>",
+  "dependencies": {
+    "URIjs": "~1.11.2"
+  },
+  "devDependencies": {
+    "mocha": "1.8.x"
+  },
+  "description": "JALA is a JavaScript License Audit tool",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "license": "copyleft-next-0.3.0",
+  "name": "jala",
+  "version": "0.0.1"
+}
