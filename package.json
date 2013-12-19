@@ -6,11 +6,11 @@
   "devDependencies": {
     "mocha": "1.8.x"
   },
-  "description": "JALA is a JavaScript License Audit tool",
+  "description": "JSlich is a JavaScript License Checker",
   "engines": {
     "node": ">=0.8"
   },
   "license": "copyleft-next-0.3.0",
-  "name": "jala",
+  "name": "jslich",
   "version": "0.0.1"
 }

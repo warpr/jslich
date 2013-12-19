@@ -1,7 +1,7 @@
 #!/usr/bin/env phantomjs
 /* -*- mode: javascript -*-
 
-  This file is part of JALA, a javascript license audit tool.
+  This file is part of JSlich, a JavaScript license checker.
   Copyright 2013, Kuno Woudt <kuno@frob.nl>.
   License: copyleft-next 0.3.0
 
