@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+/* -*- mode: javascript -*-
+
+  This file is part of JSlich, a JavaScript license checker.
+  Copyright 2013, Kuno Woudt <kuno@frob.nl>.
+  License: copyleft-next 0.3.0
+
+*/
+
+require('shelljs/global');
+
+var jslich = require('../');
+
+var check_command = function (cmd) {
+    if (!which (cmd)) {
+        console.log (cmd, 'not found');
+        exit (1);
+    }
+};
+
+var data_dir = __dirname + '/../data';
+var licensedb_archive = 'https://licensedb.org/dl/license-database.tar.gz';
+
+check_command('wget');
+check_command('tar');
+
+mkdir('-p', data_dir);
+cd (data_dir);
+
+if (exec('wget ' + licensedb_archive).code !== 0)
+{
+    console.log ('failed to download', licensedb_archive);
+    exit(1);
+}
+
+if (exec('tar xfz license-database.tar.gz').code !== 0)
+{
+    console.log ('failed to untar license database');
+    exit(1);
+}
+
+jslich.licenses.build ('license-database/json/', 'licenses.json');
+
+

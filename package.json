@@ -1,16 +1,22 @@
 {
   "author": "Kuno Woudt <kuno@frob.nl>",
   "dependencies": {
+    "esprima": "~1.0.4",
+    "request": "~2.30.0",
+    "shelljs": "~0.2.6",
+    "summarizely": "0.0.2",
+    "underscore": "~1.5.2",
     "URIjs": "~1.11.2"
   },
+  "description": "JSlich is a JavaScript License Checker",
   "devDependencies": {
     "mocha": "1.8.x"
   },
-  "description": "JSlich is a JavaScript License Checker",
   "engines": {
     "node": ">=0.8"
   },
   "license": "copyleft-next-0.3.0",
+  "main": "lib/main.js",
   "name": "jslich",
   "version": "0.0.1"
 }

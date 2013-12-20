@@ -1,0 +1,514 @@
+{
+    "AGPL-3": {
+        "id": "http://gnu.org/licenses/agpl-3.0.html",
+        "li:id": "AGPL-3",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "license agplv3 gnu affero gpl version 3 or later httpgnuorglicensesagplhtml this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "license agplv3only gnu affero gpl version 3 httpgnuorglicensesagpl30html this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu affero general public license as published by the free software foundation either version 3 of the license or at your option any later version",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu affero general public license along with this program"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu affero general public license version 3 as published by the free software foundation",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu general public license along with this program"
+                ]
+            }
+        ]
+    },
+    "Apache-2": {
+        "id": "http://www.apache.org/licenses/LICENSE-2.0",
+        "li:id": "Apache-2",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "licensed under the apache license version 20 the license you may not use this file except in compliance with the license",
+                    "httpwwwapacheorglicenseslicense20",
+                    "unless required by applicable law or agreed to in writing software distributed under the license is distributed on an as is basis without warranties or conditions of any kind either express or implied"
+                ]
+            }
+        ]
+    },
+    "Artistic-2": {
+        "id": "http://www.perlfoundation.org/artistic_license_2_0",
+        "li:id": "Artistic-2",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "is copyright",
+                    "is free software you can redistribute it andor modify it under the terms of the artistic license 20"
+                ]
+            }
+        ]
+    },
+    "BSD-2-Clause": {
+        "id": "http://opensource.org/licenses/BSD-2-Clause",
+        "li:id": "BSD-2-Clause",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "all rights reserved",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met",
+                    "redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
+                    "redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
+                    "this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                ]
+            }
+        ]
+    },
+    "BSD-3-Clause": {
+        "id": "http://opensource.org/licenses/BSD-3-Clause",
+        "li:id": "BSD-3-Clause",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "all rights reserved",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met",
+                    "redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
+                    "redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
+                    "neither the name of the",
+                    "nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission",
+                    "this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                ]
+            }
+        ]
+    },
+    "BSD-4-Clause": {
+        "id": "https://licensedb.org/id/BSD-4-Clause",
+        "li:id": "BSD-4-Clause",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "all rights reserved",
+                    "redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
+                    "this software is provided by copyright holder as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                ]
+            }
+        ]
+    },
+    "BSD-Repoze": {
+        "id": "https://licensedb.org/id/BSD-Repoze",
+        "li:id": "BSD-Repoze",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "license",
+                    "license",
+                    "a copyright notice accompanies this license document that identifies the copyright holders",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "disclaimer",
+                    "this software is provided by the copyright holders as is and any expressed or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                ]
+            }
+        ]
+    },
+    "CC0": {
+        "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "li:id": "CC0",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "to the extent possible under law",
+                    "has waived all copyright and related or neighboring rights to"
+                ]
+            }
+        ]
+    },
+    "CDDL-1": {
+        "id": "http://opensource.org/licenses/CDDL-1.0",
+        "li:id": "CDDL-1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "you can obtain a copy of the license at httpopensourceorglicensescddl10",
+                    "contributors",
+                    "the original software is",
+                    "the initial developer of the original software is",
+                    "portions copyright"
+                ]
+            }
+        ]
+    },
+    "CPL-1": {
+        "id": "http://www.ibm.com/developerworks/library/os-cpl.html",
+        "li:id": "CPL-1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": []
+            }
+        ]
+    },
+    "DbCL-1": {
+        "id": "http://opendatacommons.org/licenses/dbcl/1.0/",
+        "li:id": "DbCL-1",
+        "notices": [
+            {
+                "fragments": [
+                    "is made available under the open database license httpopendatacommonsorglicensesodbl10"
+                ]
+            }
+        ]
+    },
+    "EPL-1": {
+        "id": "http://www.eclipse.org/legal/epl-v10.html",
+        "li:id": "EPL-1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": []
+            }
+        ]
+    },
+    "Expat": {
+        "id": "http://www.jclark.com/xml/copying.txt",
+        "li:id": "Expat",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense andor sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions",
+                    "the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software",
+                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement"
+                ]
+            }
+        ]
+    },
+    "GPL-1": {
+        "id": "http://gnu.org/licenses/gpl-1.0.html",
+        "li:id": "GPL-1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license as published by the free software foundation either version 1 or at your option any later version",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                ]
+            }
+        ]
+    },
+    "GPL-2": {
+        "id": "http://gnu.org/licenses/gpl-2.0.html",
+        "li:id": "GPL-2",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "license gplv2 gnu gpl version 2 or later httpgnuorglicensesgplhtml this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "license gplv2only gnu gpl version 2 httpgnuorglicensesgpl20html this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license as published by the free software foundation either version 2 of the license or at your option any later version",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license version 2 as published by the free software foundation",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                ]
+            }
+        ]
+    },
+    "GPL-3": {
+        "id": "http://gnu.org/licenses/gpl-3.0.html",
+        "li:id": "GPL-3",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "license gplv3 gnu gpl version 3 or later httpgnuorglicensesgplhtml this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "license gplv3only gnu gpl version 3 httpgnuorglicensesgpl30html this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license as published by the free software foundation either version 3 of the license or at your option any later version",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu general public license along with this program"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license version 3 as published by the free software foundation",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu general public license along with this program"
+                ]
+            }
+        ]
+    },
+    "IJG": {
+        "id": "http://spdx.org/licenses/IJG",
+        "li:id": "IJG",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "the authors make no warranty or representation either express or implied with respect to this software its quality accuracy merchantability or fitness for a particular purpose",
+                    "this software is copyright",
+                    "permission is hereby granted to use copy modify and distribute this software or portions thereof for any purpose without fee subject to these conditions 1 if any part of the source code for this software is distributed then this readme file must be included with this copyright and nowarranty notice unaltered and any additions deletions or changes to the original files must be clearly indicated in accompanying documentation",
+                    "these conditions apply to any software derived from or based on the software code not just to the unmodified library",
+                    "permission is not granted for the use of any",
+                    "name or company name in advertising or publicity relating to this software or products derived from it",
+                    "we specifically permit and encourage the use of this software as the basis of commercial products provided that all warranty or liability claims are assumed by the product vendor"
+                ]
+            }
+        ]
+    },
+    "ISC": {
+        "id": "http://www.isc.org/software/license",
+        "li:id": "ISC",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "permission to use copy modify andor distribute this software for any purpose with or without fee is hereby granted provided that the above copyright notice and this permission notice appear in all copies",
+                    "the software is provided as is and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness"
+                ]
+            }
+        ]
+    },
+    "LGPL-2.1": {
+        "id": "http://gnu.org/licenses/lgpl-2.1.html",
+        "li:id": "LGPL-2.1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "license lgplv21 gnu lesser gpl version 2 or later httpgnuorglicenseslgplhtml this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "license lgplv21only gnu lesser gpl version 2 httpgnuorglicenseslgpl21html this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "this library is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license as published by the free software foundation either version 21 of the license or at your option any later version",
+                    "this library is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu lesser general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                ]
+            },
+            {
+                "fragments": [
+                    "this library is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license version 21 as published by the free software foundation",
+                    "this library is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu lesser general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                ]
+            }
+        ]
+    },
+    "LGPL-2": {
+        "id": "http://gnu.org/licenses/lgpl-2.0.html",
+        "li:id": "LGPL-2",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "this library is free software you can redistribute it andor modify it under the terms of the gnu library general public license as published by the free software foundation either version 2 of the license or at your option any later version",
+                    "this library is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu library general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                ]
+            }
+        ]
+    },
+    "LGPL-3": {
+        "id": "http://gnu.org/licenses/lgpl-3.0.html",
+        "li:id": "LGPL-3",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "license lgplv3 gnu lesser gpl version 3 or later httpgnuorglicenseslgplhtml this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "license lgplv3only gnu lesser gpl version 3 httpgnuorglicenseslgpl30html this is free software you are free to change and redistribute it"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license as published by the free software foundation either version 3 of the license or at your option any later version",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu lesser general public license along with this program"
+                ]
+            },
+            {
+                "fragments": [
+                    "this program is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license version 3 as published by the free software foundation",
+                    "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
+                    "you should have received a copy of the gnu lesser general public license along with this program"
+                ]
+            }
+        ]
+    },
+    "MIT": {
+        "id": "http://opensource.org/licenses/MIT",
+        "li:id": "MIT",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense andor sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions",
+                    "the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software",
+                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement"
+                ]
+            }
+        ]
+    },
+    "MPL-1.1": {
+        "id": "http://mozilla.org/MPL/1.1/",
+        "li:id": "MPL-1.1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "the contents of this file are subject to the mozilla public license version 11 the license you may not use this file except in compliance with the license",
+                    "software distributed under the license is distributed on an as is basis without warranty of any kind either express or implied",
+                    "the original code is",
+                    "the initial developer of the original code is",
+                    "contributors",
+                    "if you wish to allow use of your version of this file only under the terms of the license and not to allow others to use your version of this file under the mpl indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the license"
+                ]
+            }
+        ]
+    },
+    "MPL-1": {
+        "id": "http://mozilla.org/MPL/1.0/",
+        "li:id": "MPL-1",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "the contents of this file are subject to the mozilla public license version 10 the license you may not use this file except in compliance with the license",
+                    "software distributed under the license is distributed on an as is basis without warranty of any kind either express or implied",
+                    "the original code is",
+                    "the initial developer of the original code is",
+                    "contributors"
+                ]
+            }
+        ]
+    },
+    "MPL-2": {
+        "id": "http://mozilla.org/MPL/2.0/",
+        "li:id": "MPL-2",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "20"
+                ]
+            },
+            {
+                "fragments": [
+                    "20",
+                    "this source code form is incompatible with secondary licenses as defined by the mozilla public license v"
+                ]
+            }
+        ]
+    },
+    "ODC-By-1": {
+        "id": "http://opendatacommons.org/licenses/by/1.0/",
+        "li:id": "ODC-By-1",
+        "notices": [
+            {
+                "fragments": [
+                    "is made available under the open data commons attribution license httpopendatacommonsorglicensesby10"
+                ]
+            }
+        ]
+    },
+    "ODbL-1": {
+        "id": "http://opendatacommons.org/licenses/odbl/1.0/",
+        "li:id": "ODbL-1",
+        "notices": [
+            {
+                "fragments": [
+                    "is made available under the open database license httpopendatacommonsorglicensesodbl10"
+                ]
+            }
+        ]
+    },
+    "PDDL-1": {
+        "id": "http://opendatacommons.org/licenses/pddl/1.0/",
+        "li:id": "PDDL-1",
+        "notices": [
+            {
+                "fragments": [
+                    "is made available under the public domain dedication and license v10 whose full text can be found at httpwwwopendatacommonsorglicensespddl10"
+                ]
+            }
+        ]
+    },
+    "Unlicense": {
+        "id": "http://unlicense.org",
+        "li:id": "Unlicense",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "this is free and unencumbered software released into the public domain",
+                    "anyone is free to copy modify publish use compile sell or distribute this software either in source code form or as a compiled binary for any purpose commercial or noncommercial and by any means",
+                    "we make this dedication for the benefit of the public at large and to the detriment of our heirs and successors",
+                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement",
+                    "for more information please refer to httpunlicenseorg"
+                ]
+            }
+        ]
+    },
+    "Zlib": {
+        "id": "http://zlib.net/zlib_license.html",
+        "li:id": "Zlib",
+        "free": true,
+        "notices": [
+            {
+                "fragments": [
+                    "this software is provided asis without any express or implied warranty",
+                    "permission is granted to anyone to use this software for any purpose including commercial applications and to alter it and redistribute it freely subject to the following restrictions",
+                    "the origin of this software must not be misrepresented you must not claim that you wrote the original software"
+                ]
+            }
+        ]
+    }
+}

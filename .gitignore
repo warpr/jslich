@@ -1,2 +1,4 @@
 *~
 /node_modules/
+/data/license-database/
+/data/license-database.tar.gz
