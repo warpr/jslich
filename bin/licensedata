@@ -9,6 +9,7 @@
 
 require('shelljs/global');
 
+var fs = require('fs');
 var jslich = require('../');
 
 var check_command = function (cmd) {
@@ -27,16 +28,23 @@ check_command('tar');
 mkdir('-p', data_dir);
 cd (data_dir);
 
-if (exec('wget ' + licensedb_archive).code !== 0)
+if (fs.existsSync ('license-database'))
 {
-    console.log ('failed to download', licensedb_archive);
-    exit(1);
+    console.log ('Using existing license-database directory...');
 }
-
-if (exec('tar xfz license-database.tar.gz').code !== 0)
+else
 {
-    console.log ('failed to untar license database');
-    exit(1);
+    if (exec('wget ' + licensedb_archive).code !== 0)
+    {
+        console.log ('failed to download', licensedb_archive);
+        exit(1);
+    }
+
+    if (exec('tar xfz license-database.tar.gz').code !== 0)
+    {
+        console.log ('failed to untar license database');
+        exit(1);
+    }
 }
 
 jslich.licenses.build ('license-database/json/', 'licenses.json');

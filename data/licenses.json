@@ -6,26 +6,32 @@
         "notices": [
             {
                 "fragments": [
-                    "license agplv3 gnu affero gpl version 3 or later httpgnuorglicensesagplhtml this is free software you are free to change and redistribute it"
+                    "license agplv3 gnu affero gpl version 3 or later httpgnuorglicensesagplhtml this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
-                    "license agplv3only gnu affero gpl version 3 httpgnuorglicensesagpl30html this is free software you are free to change and redistribute it"
+                    "license agplv3 only gnu affero gpl version 3 httpgnuorglicensesagpl 30html this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu affero general public license as published by the free software foundation either version 3 of the license or at your option any later version",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu affero general public license along with this program"
+                    "see the gnu affero general public license for more details",
+                    "you should have received a copy of the gnu affero general public license along with this program",
+                    "if not see httpwwwgnuorglicenses"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu affero general public license version 3 as published by the free software foundation",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu general public license along with this program"
+                    "see the gnu affero general public license for more details",
+                    "you should have received a copy of the gnu general public license along with this program",
+                    "if not see httpwwwgnuorglicenses"
                 ]
             }
         ]
@@ -38,8 +44,8 @@
             {
                 "fragments": [
                     "licensed under the apache license version 20 the license you may not use this file except in compliance with the license",
-                    "httpwwwapacheorglicenseslicense20",
-                    "unless required by applicable law or agreed to in writing software distributed under the license is distributed on an as is basis without warranties or conditions of any kind either express or implied"
+                    "you may obtain a copy of the license at httpwwwapacheorglicenseslicense 20 unless required by applicable law or agreed to in writing software distributed under the license is distributed on an as is basis without warranties or conditions of any kind either express or implied",
+                    "see the license for the specific language governing permissions and limitations under the license"
                 ]
             }
         ]
@@ -52,7 +58,8 @@
             {
                 "fragments": [
                     "is copyright",
-                    "is free software you can redistribute it andor modify it under the terms of the artistic license 20"
+                    "is free software you can redistribute it andor modify it under the terms of the artistic license 20",
+                    "for details see the full text of the license in the file license"
                 ]
             }
         ]
@@ -65,10 +72,10 @@
             {
                 "fragments": [
                     "all rights reserved",
-                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met",
-                    "redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
                     "redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
-                    "this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                    "this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed",
+                    "in no event shall the copyright holder or contributors be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage"
                 ]
             }
         ]
@@ -81,12 +88,12 @@
             {
                 "fragments": [
                     "all rights reserved",
-                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met",
-                    "redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
                     "redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
                     "neither the name of the",
                     "nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission",
-                    "this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                    "this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed",
+                    "in no event shall the copyright holder or contributors be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage"
                 ]
             }
         ]
@@ -99,8 +106,17 @@
             {
                 "fragments": [
                     "all rights reserved",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met 1",
+                    "redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer",
+                    "2",
                     "redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
-                    "this software is provided by copyright holder as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                    "3",
+                    "all advertising materials mentioning features or use of this software must display the following acknowledgement this product includes software developed by the",
+                    "4",
+                    "neither the name of the",
+                    "nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission",
+                    "this software is provided by copyright holder as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed",
+                    "in no event shall copyright holder be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage"
                 ]
             }
         ]
@@ -112,16 +128,17 @@
         "notices": [
             {
                 "fragments": [
-                    "license",
-                    "license",
-                    "a copyright notice accompanies this license document that identifies the copyright holders",
-                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met",
-                    "1",
+                    "license license a copyright notice accompanies this license document that identifies the copyright holders",
+                    "redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met 1",
+                    "redistributions in source code must retain the accompanying copyright notice this list of conditions and the following disclaimer",
                     "2",
+                    "redistributions in binary form must reproduce the accompanying copyright notice this list of conditions and the following disclaimer in the documentation andor other materials provided with the distribution",
                     "3",
+                    "names of the copyright holders must not be used to endorse or promote products derived from this software without prior written permission from the copyright holders",
                     "4",
-                    "disclaimer",
-                    "this software is provided by the copyright holders as is and any expressed or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed"
+                    "if any files are modified you must cause the modified files to carry prominent notices stating that you changed the files and the date of any change",
+                    "disclaimer this software is provided by the copyright holders as is and any expressed or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed",
+                    "in no event shall the copyright holders be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage"
                 ]
             }
         ]
@@ -134,7 +151,8 @@
             {
                 "fragments": [
                     "to the extent possible under law",
-                    "has waived all copyright and related or neighboring rights to"
+                    "has waived all copyright and related or neighboring rights to",
+                    "see httpcreativecommonsorgpublicdomainzero10 for more information"
                 ]
             }
         ]
@@ -146,11 +164,15 @@
         "notices": [
             {
                 "fragments": [
-                    "you can obtain a copy of the license at httpopensourceorglicensescddl10",
-                    "contributors",
-                    "the original software is",
+                    "the contents of this file are subject to the terms of the common development and distribution license the license",
+                    "you may not use this file except in compliance with the license",
+                    "you can obtain a copy of the license at httpopensourceorglicensescddl 10",
+                    "see the license for the specific language governing permissions and limitations under the license",
+                    "when distributing the software include this license header notice in each file and include the license file at httpopensourceorglicensescddl 10",
+                    "contributors the original software is",
                     "the initial developer of the original software is",
-                    "portions copyright"
+                    "portions copyright",
+                    "all rights reserved"
                 ]
             }
         ]
@@ -161,7 +183,10 @@
         "free": true,
         "notices": [
             {
-                "fragments": []
+                "fragments": [
+                    "all rights reserved",
+                    "this program and the accompanying materials are made available under the terms of the common public license v10 which accompanies this distribution and is available at httpwwweclipseorglegalcpl v10html contributors initial api and implementation"
+                ]
             }
         ]
     },
@@ -171,7 +196,8 @@
         "notices": [
             {
                 "fragments": [
-                    "is made available under the open database license httpopendatacommonsorglicensesodbl10"
+                    "is made available under the open database license httpopendatacommonsorglicensesodbl10",
+                    "any rights in individual contents of the database are licensed under the database contents license httpopendatacommonsorglicensesdbcl10"
                 ]
             }
         ]
@@ -182,7 +208,10 @@
         "free": true,
         "notices": [
             {
-                "fragments": []
+                "fragments": [
+                    "all rights reserved",
+                    "this program and the accompanying materials are made available under the terms of the eclipse public license v10 which accompanies this distribution and is available at httpwwweclipseorglegalepl v10html contributors initial api and implementation"
+                ]
             }
         ]
     },
@@ -193,9 +222,9 @@
         "notices": [
             {
                 "fragments": [
-                    "permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense andor sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions",
-                    "the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software",
-                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement"
+                    "permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense andor sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software",
+                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement",
+                    "in no event shall the authors or copyright holders be liable for any claim damages or other liability whether in an action of contract tort or otherwise arising from out of or in connection with the software or the use or other dealings in the software"
                 ]
             }
         ]
@@ -209,7 +238,8 @@
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license as published by the free software foundation either version 1 or at your option any later version",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                    "see the gnu general public license for more details",
+                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 02110 1301 usa"
                 ]
             }
         ]
@@ -221,26 +251,30 @@
         "notices": [
             {
                 "fragments": [
-                    "license gplv2 gnu gpl version 2 or later httpgnuorglicensesgplhtml this is free software you are free to change and redistribute it"
+                    "license gplv2 gnu gpl version 2 or later httpgnuorglicensesgplhtml this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
-                    "license gplv2only gnu gpl version 2 httpgnuorglicensesgpl20html this is free software you are free to change and redistribute it"
+                    "license gplv2 only gnu gpl version 2 httpgnuorglicensesgpl 20html this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license as published by the free software foundation either version 2 of the license or at your option any later version",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                    "see the gnu general public license for more details",
+                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 02110 1301 usa"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license version 2 as published by the free software foundation",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                    "see the gnu general public license for more details",
+                    "you should have received a copy of the gnu general public license along with this program if not write to the free software foundation inc 51 franklin street fifth floor boston ma 02110 1301 usa"
                 ]
             }
         ]
@@ -252,26 +286,32 @@
         "notices": [
             {
                 "fragments": [
-                    "license gplv3 gnu gpl version 3 or later httpgnuorglicensesgplhtml this is free software you are free to change and redistribute it"
+                    "license gplv3 gnu gpl version 3 or later httpgnuorglicensesgplhtml this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
-                    "license gplv3only gnu gpl version 3 httpgnuorglicensesgpl30html this is free software you are free to change and redistribute it"
+                    "license gplv3 only gnu gpl version 3 httpgnuorglicensesgpl 30html this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license as published by the free software foundation either version 3 of the license or at your option any later version",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu general public license along with this program"
+                    "see the gnu general public license for more details",
+                    "you should have received a copy of the gnu general public license along with this program",
+                    "if not see httpwwwgnuorglicenses"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu general public license version 3 as published by the free software foundation",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu general public license along with this program"
+                    "see the gnu general public license for more details",
+                    "you should have received a copy of the gnu general public license along with this program",
+                    "if not see httpwwwgnuorglicenses"
                 ]
             }
         ]
@@ -284,11 +324,18 @@
             {
                 "fragments": [
                     "the authors make no warranty or representation either express or implied with respect to this software its quality accuracy merchantability or fitness for a particular purpose",
+                    "this software is provided as is and you its user assume the entire risk as to its quality and accuracy",
                     "this software is copyright",
-                    "permission is hereby granted to use copy modify and distribute this software or portions thereof for any purpose without fee subject to these conditions 1 if any part of the source code for this software is distributed then this readme file must be included with this copyright and nowarranty notice unaltered and any additions deletions or changes to the original files must be clearly indicated in accompanying documentation",
+                    "all rights reserved except as specified below",
+                    "permission is hereby granted to use copy modify and distribute this software or portions thereof for any purpose without fee subject to these conditions 1 if any part of the source code for this software is distributed then this readme file must be included with this copyright and no warranty notice unaltered and any additions deletions or changes to the original files must be clearly indicated in accompanying documentation",
+                    "2 if only executable code is distributed then the accompanying documentation must state that this software is based in part on the work of",
+                    "3 permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences the authors accept no liability for damages of any kind",
                     "these conditions apply to any software derived from or based on the software code not just to the unmodified library",
+                    "if you use our work you ought to acknowledge us",
                     "permission is not granted for the use of any",
                     "name or company name in advertising or publicity relating to this software or products derived from it",
+                    "this software may be referred to only as the",
+                    "software",
                     "we specifically permit and encourage the use of this software as the basis of commercial products provided that all warranty or liability claims are assumed by the product vendor"
                 ]
             }
@@ -302,7 +349,8 @@
             {
                 "fragments": [
                     "permission to use copy modify andor distribute this software for any purpose with or without fee is hereby granted provided that the above copyright notice and this permission notice appear in all copies",
-                    "the software is provided as is and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness"
+                    "the software is provided as is and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness",
+                    "in no event shall the author be liable for any special direct indirect or consequential damages or any damages whatsoever resulting from loss of use data or profits whether in an action of contract negligence or other tortious action arising out of or in connection with the use or performance of this software"
                 ]
             }
         ]
@@ -314,26 +362,30 @@
         "notices": [
             {
                 "fragments": [
-                    "license lgplv21 gnu lesser gpl version 2 or later httpgnuorglicenseslgplhtml this is free software you are free to change and redistribute it"
+                    "license lgplv21 gnu lesser gpl version 2 or later httpgnuorglicenseslgplhtml this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
-                    "license lgplv21only gnu lesser gpl version 2 httpgnuorglicenseslgpl21html this is free software you are free to change and redistribute it"
+                    "license lgplv21 only gnu lesser gpl version 2 httpgnuorglicenseslgpl 21html this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
                     "this library is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license as published by the free software foundation either version 21 of the license or at your option any later version",
                     "this library is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu lesser general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                    "see the gnu lesser general public license for more details",
+                    "you should have received a copy of the gnu lesser general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 02110 1301 usa"
                 ]
             },
             {
                 "fragments": [
                     "this library is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license version 21 as published by the free software foundation",
                     "this library is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu lesser general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                    "see the gnu lesser general public license for more details",
+                    "you should have received a copy of the gnu lesser general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 02110 1301 usa"
                 ]
             }
         ]
@@ -347,7 +399,8 @@
                 "fragments": [
                     "this library is free software you can redistribute it andor modify it under the terms of the gnu library general public license as published by the free software foundation either version 2 of the license or at your option any later version",
                     "this library is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu library general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 021101301 usa"
+                    "see the gnu library general public license for more details",
+                    "you should have received a copy of the gnu library general public license along with this library if not write to the free software foundation inc 51 franklin street fifth floor boston ma 02110 1301 usa"
                 ]
             }
         ]
@@ -359,26 +412,32 @@
         "notices": [
             {
                 "fragments": [
-                    "license lgplv3 gnu lesser gpl version 3 or later httpgnuorglicenseslgplhtml this is free software you are free to change and redistribute it"
+                    "license lgplv3 gnu lesser gpl version 3 or later httpgnuorglicenseslgplhtml this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
-                    "license lgplv3only gnu lesser gpl version 3 httpgnuorglicenseslgpl30html this is free software you are free to change and redistribute it"
+                    "license lgplv3 only gnu lesser gpl version 3 httpgnuorglicenseslgpl 30html this is free software you are free to change and redistribute it",
+                    "there is no warranty to the extent permitted by law"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license as published by the free software foundation either version 3 of the license or at your option any later version",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu lesser general public license along with this program"
+                    "see the gnu lesser general public license for more details",
+                    "you should have received a copy of the gnu lesser general public license along with this program",
+                    "if not see httpwwwgnuorglicenses"
                 ]
             },
             {
                 "fragments": [
                     "this program is free software you can redistribute it andor modify it under the terms of the gnu lesser general public license version 3 as published by the free software foundation",
                     "this program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for a particular purpose",
-                    "you should have received a copy of the gnu lesser general public license along with this program"
+                    "see the gnu lesser general public license for more details",
+                    "you should have received a copy of the gnu lesser general public license along with this program",
+                    "if not see httpwwwgnuorglicenses"
                 ]
             }
         ]
@@ -390,9 +449,9 @@
         "notices": [
             {
                 "fragments": [
-                    "permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense andor sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions",
-                    "the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software",
-                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement"
+                    "permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense andor sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software",
+                    "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement",
+                    "in no event shall the authors or copyright holders be liable for any claim damages or other liability whether in an action of contract tort or otherwise arising from out of or in connection with the software or the use or other dealings in the software"
                 ]
             }
         ]
@@ -405,11 +464,16 @@
             {
                 "fragments": [
                     "the contents of this file are subject to the mozilla public license version 11 the license you may not use this file except in compliance with the license",
-                    "software distributed under the license is distributed on an as is basis without warranty of any kind either express or implied",
+                    "you may obtain a copy of the license at httpwwwmozillaorgmpl software distributed under the license is distributed on an as is basis without warranty of any kind either express or implied",
+                    "see the license for the specific language governing rights and limitations under the license",
                     "the original code is",
                     "the initial developer of the original code is",
+                    "portions created by are copyright",
+                    "all rights reserved",
                     "contributors",
-                    "if you wish to allow use of your version of this file only under the terms of the license and not to allow others to use your version of this file under the mpl indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the license"
+                    "alternatively the contents of this file may be used under the terms of the license the license in which case the provisions of license are applicable instead of those above",
+                    "if you wish to allow use of your version of this file only under the terms of the license and not to allow others to use your version of this file under the mpl indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the license",
+                    "if you do not delete the provisions above a recipient may use your version of this file under either the mpl or the license"
                 ]
             }
         ]
@@ -422,9 +486,12 @@
             {
                 "fragments": [
                     "the contents of this file are subject to the mozilla public license version 10 the license you may not use this file except in compliance with the license",
-                    "software distributed under the license is distributed on an as is basis without warranty of any kind either express or implied",
+                    "you may obtain a copy of the license at httpwwwmozillaorgmpl software distributed under the license is distributed on an as is basis without warranty of any kind either express or implied",
+                    "see the license for the specific language governing rights and limitations under the license",
                     "the original code is",
                     "the initial developer of the original code is",
+                    "portions created by are copyright",
+                    "all rights reserved",
                     "contributors"
                 ]
             }
@@ -437,13 +504,18 @@
         "notices": [
             {
                 "fragments": [
-                    "20"
+                    "this source code form is subject to the terms of the mozilla public license v",
+                    "20",
+                    "if a copy of the mpl was not distributed with this file you can obtain one at httpmozillaorgmpl20"
                 ]
             },
             {
                 "fragments": [
+                    "this source code form is subject to the terms of the mozilla public license v",
                     "20",
-                    "this source code form is incompatible with secondary licenses as defined by the mozilla public license v"
+                    "if a copy of the mpl was not distributed with this file you can obtain one at httpmozillaorgmpl20",
+                    "this source code form is incompatible with secondary licenses as defined by the mozilla public license v",
+                    "20"
                 ]
             }
         ]
@@ -465,7 +537,8 @@
         "notices": [
             {
                 "fragments": [
-                    "is made available under the open database license httpopendatacommonsorglicensesodbl10"
+                    "is made available under the open database license httpopendatacommonsorglicensesodbl10",
+                    "any rights in individual contents of the database are licensed under the database contents license httpopendatacommonsorglicensesdbcl10"
                 ]
             }
         ]
@@ -489,9 +562,12 @@
             {
                 "fragments": [
                     "this is free and unencumbered software released into the public domain",
-                    "anyone is free to copy modify publish use compile sell or distribute this software either in source code form or as a compiled binary for any purpose commercial or noncommercial and by any means",
+                    "anyone is free to copy modify publish use compile sell or distribute this software either in source code form or as a compiled binary for any purpose commercial or non commercial and by any means",
+                    "in jurisdictions that recognize copyright laws the author or authors of this software dedicate any and all copyright interest in the software to the public domain",
                     "we make this dedication for the benefit of the public at large and to the detriment of our heirs and successors",
+                    "we intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law",
                     "the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement",
+                    "in no event shall the authors be liable for any claim damages or other liability whether in an action of contract tort or otherwise arising from out of or in connection with the software or the use or other dealings in the software",
                     "for more information please refer to httpunlicenseorg"
                 ]
             }
@@ -504,9 +580,15 @@
         "notices": [
             {
                 "fragments": [
-                    "this software is provided asis without any express or implied warranty",
-                    "permission is granted to anyone to use this software for any purpose including commercial applications and to alter it and redistribute it freely subject to the following restrictions",
-                    "the origin of this software must not be misrepresented you must not claim that you wrote the original software"
+                    "this software is provided as is without any express or implied warranty",
+                    "in no event will the authors be held liable for any damages arising from the use of this software",
+                    "permission is granted to anyone to use this software for any purpose including commercial applications and to alter it and redistribute it freely subject to the following restrictions 1",
+                    "the origin of this software must not be misrepresented you must not claim that you wrote the original software",
+                    "if you use this software in a product an acknowledgment in the product documentation would be appreciated but is not required",
+                    "2",
+                    "altered source versions must be plainly marked as such and must not be misrepresented as being the original software",
+                    "3",
+                    "this notice may not be removed or altered from any source distribution"
                 ]
             }
         ]
