@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Immediate load</title>
+    <link href="license.html" rel="jslicense"></link>
+    <style>
+     body {
+       font-family: Helvetica, Arial, sans-serif;
+       background: #444; color: #aaa;
+     }
+     p {
+       width: 32em;
+       margin: 1em; padding: 1em;
+       border: 2px solid #000;
+       border-radius: 0.5em;
+       background: #aaa;
+       color: #000;
+     }
+     #loading { background: #a24; }
+     #message { background: #4a2; }
+     #jslicense { background: #444; border: 2px solid #222; }
+     a, a:active, a:hover, a:focus, a:visited {
+      color: #222; text-decoration: none;
+     }
+    </style>
+  </head>
+  <body>
+    <p>
+      This file does not try to fool
+      <abbr title="Javascript License checker">JSlich</abbr>,
+      and loads jquery with a regular <code>&lt;script&gt;</code> tag.
+    </p>
+    <p id="loading">Loading jQuery ...</p>
+    <p id="message" style="display: none;">jQuery ready!</p>
+
+    <p id="jslicense">
+      <a href="license.html" rel="jslicense">Javascript license information</a>
+    </p>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script>
+   // @license magnet:?xt=urn:btih:90dc5c0be029de84e523b9b3922520e79e0e6f08&dn=cc0.txt CC0
+
+   var waitFor = function (condition, callback) {
+     condition () ? callback ()
+       : setTimeout (function () { waitFor(condition, callback); }, 100);
+   };
+
+   var delayed_load = function () {
+
+       waitFor (function () { return window.jQuery; }, function () {
+         $('#loading').fadeOut (function () {
+           $('#message').fadeIn ();
+           $('<p class="footer">').insertAfter ('#message').text ('© 2013 Kuno Woudt');
+         });
+       });
+
+   };
+
+   setTimeout (delayed_load, 2000);
+   // @license-end
+  </script>
+</html>

@@ -33,18 +33,33 @@ the associated javascript web labels page, if the page has one.
 License your JavaScript
 -----------------------
 
-See [Javascript License Web Labels][jslicense] and
-[a convention for releasing free Javascript programs][convention] for
-the standards currently supported by JSlich.
+The goal of JSlich is to help you mark your javascript as free
+software in a way which will allow LibreJS [librejs] to load the
+javascript on your web site or web application.
 
-[convention]: http://www.gnu.org/philosophy/javascript-trap.html#AppendixA
-[jslicense]: http://www.gnu.org/licenses/javascript-labels.html
+It only supports a subset of the license detection methods supported
+by LibreJS:
+
+### License embedded scripts on a webpage
+
+Use the [magnet link method][magnet] introduced in LibreJS 5.0.
+
+### License individual scripts
+
+(FIXME: write this, presumably this will be the same as above)
+
+### License third-party or externally hosted scripts
+
+(FIXME: [Javascript License Web Labels][weblabels] should work for this, right?)
+
+[magnet]: http://www.gnu.org/software/librejs/free-your-javascript.html#magnet-link-license
+[weblabels]: http://www.gnu.org/licenses/javascript-labels.html
 
 
 License
 -------
 
-Copyright 2013  Kuno Woudt
+Copyright 2013,2014  Kuno Woudt
 
 JSlich is licensed under copyleft-next version 0.3.0, see
 LICENSE.txt for more information.
@@ -57,4 +72,3 @@ FIXME: neither of these currently exist.
 
     site:   https://frob.nl/jslich
     code:   https://gitorious.org/jslich/jslich
-
