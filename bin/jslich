@@ -7,16 +7,16 @@
 
 */
 
-var chalk = require('chalk');
-var path = require('path');
-var Q = require('q');
-var request = require('request');
-var _ = require('underscore');
-var jslich = require('../');
+var _ = require ('underscore');
+var chalk = require ('chalk');
+var path = require ('path');
+var when = require ('when');
+var request = require ('request');
+var jslich = require ('../');
 
 var verify_javascript = function (urls) {
     var promises = _(urls).map (function (remote_js_file, idx) {
-        var deferred = Q.defer ();
+        var deferred = when.defer ();
         var filename = path.basename (remote_js_file);
         request(remote_js_file, function (error, response, body) {
             if (!error && response.statusCode == 200) {
@@ -33,7 +33,7 @@ var verify_javascript = function (urls) {
         return deferred.promise;
     });
 
-    return Q.allSettled (promises);
+    return when.settle (promises);
 };
 
 var report_results = function (results) {

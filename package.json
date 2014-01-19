@@ -9,7 +9,10 @@
     "underscore": "~1.5.2",
     "URIjs": "~1.11.2",
     "chalk": "~0.4.0",
-    "q": "~0.9.7"
+    "xdg": "~0.1.1",
+    "download": "~0.1.9",
+    "jsonld": "~0.1.26",
+    "when": "~2.7.1"
   },
   "description": "JSlich is a JavaScript License Checker",
   "devDependencies": {
