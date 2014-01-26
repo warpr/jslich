@@ -8,93 +8,87 @@
 */
 
 var _ = require ('underscore');
+var fs = require ('fs');
 var chalk = require ('chalk');
 var path = require ('path');
 var when = require ('when');
 var request = require ('request');
 var jslich = require ('../');
 
-// var verify_javascript = function (urls) {
-//     var promises = _(urls).map (function (remote_js_file, idx) {
-//         var deferred = when.defer ();
-//         var filename = path.basename (remote_js_file);
-//         request(remote_js_file, function (error, response, body) {
-//             if (!error && response.statusCode == 200) {
-//                 var libre = jslich.analyse.js (filename, body);
-//                 deferred.resolve (libre ? "free" : "non-free");
-//             }
-//             else
-//             {
-//                 console.log ('error downloading ' + filename);
-//                 deferred.resolve ("error");
-//             }
-//         });
+var display_license_name = function (license) {
+    titles = _(license['dc:title']).isArray () ?
+        license['dc:title'] : [ license['dc:title'] ];
 
-//         return deferred.promise;
-//     });
+    var title = null;
+    _(titles).each (function (candidate) {
+        if (title) {
+            return;
+        };
 
-//     return when.settle (promises);
-// };
+        /* FIXME: use environment LANGUAGE? */
+        if (candidate['@language'] == 'en' ||
+            candidate['@language'] == 'en-US') {
+            title = candidate['@value'];
+        }
+    });
+
+    return title ? title : titles[0];
+};
+
+var display_license_row = function (status, msg) {
+    console.log ('    ' + status + ' ' + msg);
+};
 
 var report_results = function (results) {
-    var r = [
-        results['free'] + ' files are free software/open source',
-        results['non-free'] + ' files non-free or unrecognized'
-    ];
 
-    if (results['error'] > 0)
+    var totals = { 'free': 0, 'non-free': 0 };
+
+    _(results).each (function (item) {
+        console.log ("\n" + item.script);
+
+        _(item.licenses).each (function (license) {
+            if (license) {
+                totals['free']++;
+                display_license_row (
+                    chalk.green ('✓'),
+                    chalk.grey (display_license_name (license)));
+            } else {
+                totals['non-free']++;
+                display_license_row (
+                    chalk.red ('×'),
+                    chalk.red ('no free/open license was found for this script'));
+            }
+        });
+
+        if (item.licenses.length == 0) {
+            display_license_row (
+                chalk.green ('✓'),
+                chalk.grey ('no scripts found'));
+        }
+    });
+
+    console.log ("");
+    if (totals['non-free'] > 0)
     {
-        r.push (results['error'] + ' files could not be downloaded.');
+        console.log (chalk.red (totals['non-free'] + ' failed'));
     }
-
-    result_string = r.join (', ') + '.';
-    console.log ('');
-
-    if (results['non-free'] > 0 || results['error'] > 0)
+    else if (totals['free'] > 0)
     {
-        console.log (chalk.white.bgRed.bold ("FAILED!") + ' ' + result_string);
+        console.log (chalk.green (totals['free'] + ' passed'));
     }
     else
     {
-        console.log (chalk.white.bgGreen.bold ("OK!") + ' ' + result_string);
+        console.log (chalk.orange ('no scripts found'));
     }
 };
 
-gathered = {
-    "jslicense": [
-        "http://localhost/jslich/tests/license.html"
-    ],
-    "scripts": [
-        "https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"
-    ],
-    "page": [
-        "http://localhost/jslich/tests/immediate-jquery.html"
-    ]
-}
-
-gathered = {
-    "jslicense": [
-        "http://localhost/jslich/tests/license.html"
-    ],
-    "scripts": [
-        "http://localhost/jslich/tests/tick.js",
-        "http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"
-    ],
-    "page": [
-        "http://localhost/jslich/tests/bootstrap.html"
-    ]
+var main = function (gathered) {
+    jslich.analyse (gathered).then (
+        report_results,
+        function (error) {
+            console.error ('ERROR:', error);
+        });
 };
 
-
-jslich.analyse (gathered).then (function (results) {
-    // var r = _(results).reduce (function (memo, item) {
-    //     memo[item.value]++;
-    //     return memo;
-    // }, {
-    //     'non-free': 0,
-    //     'free': 0,
-    //     'error': 0
-    // });
-
-    report_results (r);
-});
+var input = fs.readFileSync('/dev/stdin').toString();
+main (JSON.parse (input));

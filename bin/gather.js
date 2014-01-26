@@ -58,13 +58,13 @@ var main = function (address, wait) {
     };
 
     page.onError = function (msg, trace) {
-        console.log (msg);
+        console.error (msg);
     };
 
 
     page.open(address, function (status) {
         if (status !== 'success') {
-            console.log('ERROR loading', address);
+            console.error('ERROR loading', address);
         }
         else
         {
