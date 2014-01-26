@@ -69,9 +69,11 @@ var main = function (address, wait) {
         else
         {
             var jslicense = find_web_labels_page (page);
+            jslicense = jslicense ? [ jslicense ] : [];
+
             wait (page, function () {
                 console.log (JSON.stringify ({
-                    "jslicense": [ jslicense ],
+                    "jslicense": jslicense,
                     "scripts": Object.keys (scripts),
                     "page": [ address ]
                 }, undefined, 4));

@@ -5,13 +5,16 @@ JSlich
 Hello!
 
 You're reading the README.md for JSlich (JavaScript license checker),
-a tool you can just to check whether all the javascript used on on a
+a tool you can use to check whether all the javascript used on a
 webpage is properly licensed using free software licenses, in a
 machine readable way.
 
+NOTE: Consider this alpha status.  Basic functionality is in place,
+but there are no tests and some features and polish is missing.
+
 
 Install
-------------
+-------
 
 JSlich requires phantomjs and nodejs, on a recent Ubuntu:
 
@@ -24,10 +27,21 @@ JSlich requires phantomjs and nodejs, on a recent Ubuntu:
 Usage
 -----
 
-(JSlich isn't finished yet, so nothing useful is here yet).
 
-Run bin/gather to get a list of javascript URLs used by a page, and
-the associated javascript web labels page, if the page has one.
+    jslich <url> [delay]
+
+    url       URL to check, the page will be loaded in a headless
+              browser window and javascript resource urls will be
+              captured and analysed.
+
+
+    delay     Not all javascript resources will be requested after
+              the DOM is constructed if the page uses a javascript
+              module loader.
+
+              Specify a delay in seconds to allow the page to load
+              more javascript.
+
 
 
 License your JavaScript
@@ -46,11 +60,11 @@ Use the [magnet link method][magnet] introduced in LibreJS 5.0.
 
 ### License individual scripts
 
-(FIXME: write this, presumably this will be the same as above)
+Use the [magnet link method][magnet] introduced in LibreJS 5.0.
 
 ### License third-party or externally hosted scripts
 
-(FIXME: [Javascript License Web Labels][weblabels] should work for this, right?)
+Use [Javascript License Web Labels][weblabels].
 
 [magnet]: https://www.gnu.org/software/librejs/free-your-javascript.html#magnet-link-license
 [weblabels]: https://www.gnu.org/licenses/javascript-labels.html
@@ -68,8 +82,6 @@ LICENSE.txt for more information.
 
 Download
 --------
-
-FIXME: neither of these currently exist.
 
     site:   https://frob.nl/jslich
     code:   https://gitorious.org/jslich/jslich
