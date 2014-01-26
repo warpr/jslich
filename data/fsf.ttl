@@ -1,0 +1,52 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix li: <https://licensedb.org/rdf/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> rdfs:comment """
+
+This file contains the licenses specified by the JavaScript License
+Web Labels document at http://www.gnu.org/licenses/javascript-labels.html
+
+"""@en .
+
+<http://www.gnu.org/licenses/gpl-2.0.html> a li:License ;
+  li:id <https://licensedb.org/id/GPL-2> ;
+  dc:identifier "GNU-GPL-2.0-or-later" .
+
+<http://www.gnu.org/licenses/gpl-3.0.html> a li:License ;
+  li:id <https://licensedb.org/id/GPL-3> ;
+  dc:identifier "GNU-GPL-3.0-or-later" .
+
+<http://www.gnu.org/licenses/lgpl-2.1.html> a li:License ;
+  li:id <https://licensedb.org/id/LGPL-2.1> ;
+  dc:identifier "GNU-LGPL-2.1-or-later" .
+
+<http://www.gnu.org/licenses/lgpl-3.0.html> a li:License ;
+  li:id <https://licensedb.org/id/LGPL-3> ;
+  dc:identifier "GNU-LGPL-3.0-or-later" .
+
+<http://www.gnu.org/licenses/agpl-3.0.html> a li:License ;
+  li:id <https://licensedb.org/id/AGPL-3> ;
+  dc:identifier "GNU-AGPL-3.0-or-later" .
+
+<http://www.apache.org/licenses/LICENSE-2.0> a li:License ;
+  li:id <https://licensedb.org/id/Apache-2> ;
+  dc:identifier "Apache-2.0-only" .
+
+<http://directory.fsf.org/wiki/License:BSD_3Clause> a li:License ;
+  li:id <https://licensedb.org/id/BSD-3-Clause> ;
+  dc:identifier "Modified-BSD" .
+
+<http://creativecommons.org/publicdomain/zero/1.0/legalcode> a li:License ;
+  li:id <https://licensedb.org/id/CC0> ;
+  dc:identifier "CC0-1.0-only" .
+
+<http://www.jclark.com/xml/copying.txt> a li:License ;
+  li:id <https://licensedb.org/id/Expat> ;
+  dc:identifier "Expat" .
+
+<http://www.mozilla.org/MPL/2.0> a li:License ;
+  li:id <https://licensedb.org/id/MPL-2> ;
+  dc:identifier "MPL-2.0-or-later" .
+

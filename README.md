@@ -52,8 +52,9 @@ Use the [magnet link method][magnet] introduced in LibreJS 5.0.
 
 (FIXME: [Javascript License Web Labels][weblabels] should work for this, right?)
 
-[magnet]: http://www.gnu.org/software/librejs/free-your-javascript.html#magnet-link-license
-[weblabels]: http://www.gnu.org/licenses/javascript-labels.html
+[magnet]: https://www.gnu.org/software/librejs/free-your-javascript.html#magnet-link-license
+[weblabels]: https://www.gnu.org/licenses/javascript-labels.html
+
 
 
 License

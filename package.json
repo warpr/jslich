@@ -1,22 +1,21 @@
 {
   "author": "Kuno Woudt <kuno@frob.nl>",
   "dependencies": {
-    "esprima": "~1.0.4",
-    "request": "~2.30.0",
-    "sentence-tokenizer": "0.0.7",
-    "shelljs": "~0.2.6",
-    "summarizely": "0.0.2",
-    "underscore": "~1.5.2",
+    "jquery": "~2.1.0",
     "URIjs": "~1.11.2",
     "chalk": "~0.4.0",
+    "request": "~2.30.0",
+    "shelljs": "~0.2.6",
+    "underscore": "~1.5.2",
+    "when": "~2.7.1",
     "xdg": "~0.1.1",
-    "download": "~0.1.9",
-    "jsonld": "~0.1.26",
-    "when": "~2.7.1"
+    "jsdom": "~0.8.11",
+    "download": "~0.1.10"
   },
   "description": "JSlich is a JavaScript License Checker",
   "devDependencies": {
-    "mocha": "1.8.x"
+    "mocha": "1.8.x",
+    "turtle-to-jsonld": "git://github.com/warpr/turtle-to-jsonld.git"
   },
   "engines": {
     "node": ">=0.8"
