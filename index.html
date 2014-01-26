@@ -2,31 +2,62 @@
 <html>
   <head>
     <meta http-equiv="refresh" content="5" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSlich, javascript license checker</title>
     <link rel="icon" href="jslich.png" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.css">
     <style>
-      body {
-        font-family: Helvetica, Arial, sans-serif;
-        background: #000;
-        color: #fff;
-      }
-
-      #logo { width: 100px; float: left; }
-
-      p { width: 32em; }
-      section { float: left; padding: 1em; }
+      #logo { width: 128px; }
+      body { background: #111; color: #aaa; }
+      .well { background: #000;  border: #080808; }
+      .row { margin-bottom: 4em; }
     </style>
   </head>
   <body>
-    <img id="logo" src="img/jslich.svg" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Welcome!</h1>
+          <p>
+            JS Lich is a JavaScript License Checker, a tool you can use to
+            check whether all the javascript used on on a webpage is properly
+            licensed using free software licenses, in a machine readable way.
+          </p>
+          <p>
+            <a class="btn btn-primary" role="button" href="https://gitorious.org/jslich/jslich">Download</a>
+          </p>
+        </div>
+      </div>
 
-    <section>
-      <h1>Welcome!</h1>
-      <p>
+      <div class="row">
 
-        JS Lich is a JavaScript License Checker, a tool you can use to
-        check whether all the javascript used on on a webpage is properly
-        licensed using free software licenses, in a machine readable way.
-      </p>
-    </section>
+        <div class="col-md-8">
+          <h3>Example usage</h3>
+          <!-- <div class="well well-lg"> -->
+          <!--   <img src="img/jslich.bootstrap.png" /> -->
+          <!-- </div> -->
+          <div class="well well-lg">
+            <img src="img/jslich.mediagoblin.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-md-2">
+          <img id="logo" src="img/jslich.svg" />
+        </div>
+        <div class="col-md-4">
+          <p>
+            &copy; 2014 Kuno Woudt<br />
+            License: <a href="https://raw.github.com/richardfontana/copyleft-next/master/Releases/copyleft-next-0.3.0">copyleft-next 0.3.0</a><br />
+            Download: <a href="https://gitorious.org/jslich/jslich">gitorious</a><br />
+            See also: <a href="http://www.gnu.org/software/librejs/">LibreJS</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>

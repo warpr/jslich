@@ -14,4 +14,5 @@ if [ ! -x "`which node`" ]; then
     exit 1
 fi
 
+cd "$DIR/../"
 "$DIR/gather.js" "$@" | "$DIR/analyse.js"
