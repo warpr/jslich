@@ -1,0 +1,17 @@
+#!/bin/bash
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ] ; do SOURCE="$(readlink "$SOURCE")"; done
+DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+if [ ! -x "`which phantomjs`" ]; then
+    echo "phantomjs not found";
+    exit 1
+fi
+
+if [ ! -x "`which node`" ]; then
+    echo "node not found";
+    exit 1
+fi
+
+"$DIR/gather.js" "$@" | "$DIR/analyse.js"
